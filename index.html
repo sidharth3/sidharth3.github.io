@@ -8,11 +8,28 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
     </head>
     <body>
         <style>
-            body { 
+            body{
                 padding-top: 65px; 
+            }
+            h1{
+                font-size: 30px;
+                white-space:nowrap;
+                overflow: hidden;
+                width: 30em;
+                animation: type 5s steps(50, end) 1;	
+            }
+            @keyframes type{
+                from{ width: 0;}
+            }
+            span{
+                animation: blink 1s infinite;
+            }
+            @keyframes blink{
+                to{ opacity: .0;}
             }
             .container { 
                 width: 75%;
@@ -48,11 +65,10 @@
                     </div>
                 </nav>
         </div>
+        <div class="terminal"></div>
         <div class="container">
             <div class = "home">
-                <h1 class="bd-title text-info">
-                  Hey!
-                </h1>
+                <h1 class="bd-title text-info">cout &lt;&lt; "Hello World";<span>|</span></h1>
 
                 <p class = "lead">Hey Everyone! I am Sidharth, a sophomore at the <a href ="https://www.sutd.edu.sg" class="text-info">Singapore University of Technology and Design</a> pursuing an Engineering Degree in <a href ="https://istd.sutd.edu.sg" class="text-info">Information Systems and Technology Design.</a></p>
                 <br><p class = "lead">
