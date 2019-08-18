@@ -1,0 +1,46 @@
+
+body{
+    padding-top: 65px; 
+    font-family: 'Lexend Deca', sans-serif; 
+
+}
+h1{
+    font-size: 30px;
+    white-space:nowrap;
+    overflow: hidden;
+    width: 30em;
+    animation: type 5s steps(50, end) 1;
+    font-family: 'Source Code Pro', monospace;
+	
+}
+
+@keyframes type{
+    from{ width: 0;}
+}
+span{
+    animation: blink 1s infinite;
+}
+@keyframes blink{
+    to{ opacity: .0;}
+}
+.container { 
+    width: 75%;
+    left: 350px;
+    right: 10px
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+.left-element {
+    float: left;
+    width: 50%;
+    
+}
+
+.right-element {
+    float: left;
+    width: 50%;
+}
