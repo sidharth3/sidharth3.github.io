@@ -2,10 +2,15 @@
 body{
     padding-top: 55px; 
     font-family: 'Lexend Deca', sans-serif; 
-
+    background-color: darkslategray;
+    color: azure
 }
 p{
     font-size: 18px
+}
+.navbar-default{
+    background-color: cadetblue;
+    color: white
 }
 h1{
     font-size: 30px;
@@ -20,9 +25,7 @@ h1{
 @keyframes type{
     from{ width: 0;}
 }
-span{
-    animation: blink 1s infinite;
-}
+
 @keyframes blink{
     to{ opacity: .0;}
 }
@@ -48,5 +51,6 @@ img {
     width: 50%;
 }
 .jumbotron {
-    background-color:transparent !important; 
+    background-color: darkslategrey
+     !important; 
 }
