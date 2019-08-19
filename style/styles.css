@@ -2,14 +2,14 @@
 body{
     padding-top: 55px; 
     font-family: 'Lexend Deca', sans-serif; 
-    background-color: darkslategray;
+    background-color: #112e3b;
     color: azure
 }
 p{
     font-size: 18px
 }
 .navbar-default{
-    background-color: cadetblue;
+    background-color:#3d878b;
     color: white
 }
 h1{
@@ -51,6 +51,6 @@ img {
     width: 50%;
 }
 .jumbotron {
-    background-color: darkslategrey
+    background-color: #112e3b
      !important; 
 }
