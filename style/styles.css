@@ -1,6 +1,6 @@
 
 body{
-    padding-top: 65px; 
+    padding-top: 55px; 
     font-family: 'Lexend Deca', sans-serif; 
 
 }
@@ -46,4 +46,7 @@ img {
 .right-element {
     float: left;
     width: 50%;
+}
+.jumbotron {
+    background-color:transparent !important; 
 }
