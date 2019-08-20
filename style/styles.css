@@ -42,14 +42,16 @@ img {
 }
 .left-element {
     float: left;
-    width: 50%;
+    width: 30%;
+    margin-left:17%;
     
 }
 
 .right-element {
-    float: left;
-    width: 50%;
-}
+    float: right;
+    width: 30%;
+    margin-right:20%;}
+
 .jumbotron {
     background-color: #112e3b
      !important; 
