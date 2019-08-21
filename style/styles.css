@@ -52,6 +52,17 @@ img {
     width: 30%;
     margin-right:20%;}
 
+.left-el {
+    float: left;
+    width: 50%;
+    
+}
+
+.right-el {
+    float: left;
+    width: 50%;
+}
+
 .jumbotron {
     background-color: #112e3b
      !important; 
